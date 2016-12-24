@@ -1,0 +1,38 @@
+{
+    "name": "essential-php/php-di",
+    "type": "library",
+    "description": "The essential of dependency injection container",
+    "keywords": ["di", "dependency injection", "container"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Jamil Malek",
+            "email": "jamil.malek@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=7.0",
+        "container-interop/container-interop": "^1.1"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "~5.7",
+        "squizlabs/php_codesniffer": "~2.7"
+    },
+    "autoload": {
+        "psr-4": {
+            "Essential\\Di\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Essential\\Test\\Di\\": "tests/"
+        }
+    },
+    "scripts": {
+        "check": "phpcs",
+        "test": "phpunit"
+    },
+    "provide": {
+        "container-interop/container-interop-implementation": "^1.1"
+    }
+}

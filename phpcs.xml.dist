@@ -1,0 +1,11 @@
+<?xml version="1.0"?>
+<ruleset name="essential-php-di">
+    <description>The coding standard for Essential PHP-DI.</description>
+
+    <file>src</file>
+    <file>tests</file>
+
+    <arg value="np"/>
+
+    <rule ref="PSR2" />
+</ruleset>
