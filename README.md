@@ -34,3 +34,7 @@ $container->add('foo.bar', FooBar::class)
 $fooBar = $container->get('foo.bar')
 ```
 
+Issues
+------
+
+Bug reports can be submitted on the [Github Issue Tracker](https://github.com/essential-php/php-di/issues).
