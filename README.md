@@ -30,7 +30,7 @@ Usage
 use Essential\Di\Container;
 
 $container = new Container();
-$container->add('foo.bar', stdClass::class)
+$container->add('foo.bar', FooBar::class)
 $fooBar = $container->get('foo.bar')
 ```
 
