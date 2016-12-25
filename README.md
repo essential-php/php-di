@@ -38,3 +38,8 @@ Issues
 ------
 
 Bug reports can be submitted on the [Github Issue Tracker](https://github.com/essential-php/php-di/issues).
+
+License
+-------
+
+MIT License. See [LICENSE](LICENSE) for information.
