@@ -7,7 +7,7 @@ php:
   - 7.1
 
 before_script:
-  - then composer install -n
+  - composer install -n
 
 script:
   - vendor/bin/phpunit
